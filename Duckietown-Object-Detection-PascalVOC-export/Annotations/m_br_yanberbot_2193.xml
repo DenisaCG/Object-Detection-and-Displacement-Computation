@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>m_br_yanberbot_2193.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/m_br_yanberbot_2193.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>0.2929427430093209</xmin>
+        <ymin>101.45648312611011</ymin>
+        <xmax>210.7856191744341</xmax>
+        <ymax>368.31261101243336</ymax>
+    </bndbox>
+</object>
+</annotation>

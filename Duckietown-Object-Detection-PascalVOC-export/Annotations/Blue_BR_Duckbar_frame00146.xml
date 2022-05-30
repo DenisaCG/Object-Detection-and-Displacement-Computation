@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>Blue_BR_Duckbar_frame00146.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/Blue_BR_Duckbar_frame00146.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>6.684420772303595</xmin>
+        <ymin>224.22735346358792</ymin>
+        <xmax>36.64447403462051</xmax>
+        <ymax>267.708703374778</ymax>
+    </bndbox>
+</object>
+</annotation>

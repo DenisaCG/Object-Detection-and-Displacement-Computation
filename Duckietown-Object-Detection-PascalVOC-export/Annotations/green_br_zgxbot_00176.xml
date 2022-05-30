@@ -1,0 +1,70 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>green_br_zgxbot_00176.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/green_br_zgxbot_00176.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>491.7177097203728</xmin>
+        <ymin>129.59147424511545</ymin>
+        <xmax>639.9999999999999</xmax>
+        <ymax>480</ymax>
+    </bndbox>
+</object><object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>333.20905459387484</xmin>
+        <ymin>162.84191829484897</ymin>
+        <xmax>493.71504660452695</xmax>
+        <ymax>232.75310834813496</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>25.006657789613847</xmin>
+        <ymin>215.70159857904085</ymin>
+        <xmax>53.98135818908122</xmax>
+        <ymax>246.39431616341028</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>298.5619174434088</xmin>
+        <ymin>213.1438721136767</ymin>
+        <xmax>344.58055925432757</xmax>
+        <ymax>266.00355239786853</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>447.6964047936085</xmin>
+        <ymin>138.96980461811722</ymin>
+        <xmax>471.55792276964047</xmax>
+        <ymax>171.3676731793961</ymax>
+    </bndbox>
+</object>
+</annotation>

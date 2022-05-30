@@ -1,0 +1,48 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>b_cr_zgxbot_00118.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/b_cr_zgxbot_00118.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>145.1664447403462</xmin>
+        <ymin>169.66252220248666</ymin>
+        <xmax>248.28229027962715</xmax>
+        <ymax>231.90053285968025</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>174.99334221038615</xmin>
+        <ymin>148.348134991119</ymin>
+        <xmax>202.26364846870837</xmax>
+        <ymax>173.0728241563055</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>25.006657789613847</xmin>
+        <ymin>220.81705150976907</ymin>
+        <xmax>53.12916111850865</xmax>
+        <ymax>257.4777975133215</ymax>
+    </bndbox>
+</object>
+</annotation>

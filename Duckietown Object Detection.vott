@@ -1,0 +1,2617 @@
+{
+    "name": "Duckietown Object Detection",
+    "securityToken": "Duckietown Object Detection Token",
+    "sourceConnection": {
+        "name": "connection",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODM0NjRmZjMzMWQ3OWQwYzMxZjAxYWM4MGI2NzVjNTNhZTkyZTNhMTI4ZGI0MTM2YmQxN2M3MGM4MjllN2VjNzI0ZjQ5ZGVjOGVmYTI4ZjExNjc1NWJlMDk2OTFiOGQ1ODYwM2I1YjE1NTAwOTZhNWQ5MzU5M2YyMDQzMWZmZGEiLCJpdiI6IjQ1NWIzNDgyOWI4MjY0NTcyZWJmZmUxY2E0YTVmZDk4NmQ4YWIzMjM5YWRkOGI2MSJ9"
+        },
+        "id": "7ITj6VO3C"
+    },
+    "targetConnection": {
+        "name": "target",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjRiNjNlN2JkMmVmZGFlOWI1Njc0YWU2M2M5Yjc2ZTljYjc0MGQzMjE0YWU3OGQzYzIxODJkODk4N2NiNDY4MmFkNDNiZWE4MDAwNmIxYmQ1MzBkYmFiZWVmMWU5NWM5IiwiaXYiOiI3MDJjZmIwMmQwNjc2ZTQ5NjIzNzUwYzRhYWM2MmI5ZTJmMTlkODc2NGQxOTk0ZjEifQ=="
+        },
+        "id": "dYLyZUceJ"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "duckiebot",
+            "color": "#008080"
+        },
+        {
+            "name": "duckie",
+            "color": "#0000FF"
+        }
+    ],
+    "id": "TDgLsoz63",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTA1Yjc0NTA1ZmU5NzQxYTEyZDNkYzA5MWVmOWVlNGZlMDZlMWY4MDQyMzVkMzkyNDk1YTA2ODZkZmUxOTIzMWM5ODY5MTEzZDBhZjg0ZGU3MTBmNTNlY2IxMDNiNGU3MzUwYzQyYmZjNDBhOTAzYmYxYjZhNTcxMTA0NGEwZWU5MmIxMDNhNDViYmZjZDU3NTU5ZDc3ZjNmYzFiYWUwOCIsIml2IjoiYWE1NjY2MzE1NzdkN2I3YmNiZTVkYmRkZDNjM2I4MjQ1NWE5M2JlZTVmYWNhMGIwIn0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "01bc098f75a561021b70f2f450fcbece",
+    "assets": {
+        "bddba2cef9a5d2b47ac40187ad2e0304": {
+            "format": "jpg",
+            "id": "bddba2cef9a5d2b47ac40187ad2e0304",
+            "name": "B_BR_Duckbar_frame00052.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00052.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0705650e580b37af19d119156ce237fd": {
+            "format": "jpg",
+            "id": "0705650e580b37af19d119156ce237fd",
+            "name": "B_BR_Duckbar_frame00098.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00098.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5bde136acf32f0d487a58a9f65cf57d8": {
+            "format": "jpg",
+            "id": "5bde136acf32f0d487a58a9f65cf57d8",
+            "name": "B_BR_Duckbar_frame00151.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00151.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "24fc06c0f50f2050ab0c79e8ae7e23bb": {
+            "format": "jpg",
+            "id": "24fc06c0f50f2050ab0c79e8ae7e23bb",
+            "name": "B_BR_Duckbar_frame00175.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00175.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b9c832de5082977f85db968ea7398498": {
+            "format": "jpg",
+            "id": "b9c832de5082977f85db968ea7398498",
+            "name": "B_BR_Duckbar_frame00211.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00211.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0083ba8d05b0f774eb7acc78df2627b": {
+            "format": "jpg",
+            "id": "a0083ba8d05b0f774eb7acc78df2627b",
+            "name": "B_BR_Duckbar_frame00222.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00222.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c200c18194ff1a9480b810b4604195a": {
+            "format": "jpg",
+            "id": "7c200c18194ff1a9480b810b4604195a",
+            "name": "B_BR_Duckbar_frame00327.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00327.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dcc2a4f7b69cd1a9d73beb57fbf3be52": {
+            "format": "jpg",
+            "id": "dcc2a4f7b69cd1a9d73beb57fbf3be52",
+            "name": "B_BR_Duckbar_frame00418.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00418.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48066f3eb0d2b7377eedcfa610196bd1": {
+            "format": "jpg",
+            "id": "48066f3eb0d2b7377eedcfa610196bd1",
+            "name": "B_BR_Duckbar_frame00538.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00538.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "30b330443fdc1cf1cbe9a30d50dc3146": {
+            "format": "jpg",
+            "id": "30b330443fdc1cf1cbe9a30d50dc3146",
+            "name": "B_BR_Duckbar_frame00678.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00678.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "297db77a6045ef5366cbc7739b67b0d5": {
+            "format": "jpg",
+            "id": "297db77a6045ef5366cbc7739b67b0d5",
+            "name": "B_BR_Duckbar_frame00703.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00703.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a330175523146b11b3344bc05b974630": {
+            "format": "jpg",
+            "id": "a330175523146b11b3344bc05b974630",
+            "name": "B_BR_Duckbar_frame00749.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00749.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "254b3587abe0553f84d4d1ba0d8180bc": {
+            "format": "jpg",
+            "id": "254b3587abe0553f84d4d1ba0d8180bc",
+            "name": "B_BR_Duckbar_frame00762.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00762.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "231092f63b11f3925967111bcb2dda83": {
+            "format": "jpg",
+            "id": "231092f63b11f3925967111bcb2dda83",
+            "name": "B_BR_Duckbar_frame00785.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame00785.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6751c5cb1d87d114b8279ced787ce348": {
+            "format": "jpg",
+            "id": "6751c5cb1d87d114b8279ced787ce348",
+            "name": "B_BR_Duckbar_frame01152.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01152.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1a451cfd299798d8a526272091c3829": {
+            "format": "jpg",
+            "id": "a1a451cfd299798d8a526272091c3829",
+            "name": "B_BR_Duckbar_frame01192.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01192.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11e1f54b5910a3141e06e7c2d752cb2f": {
+            "format": "jpg",
+            "id": "11e1f54b5910a3141e06e7c2d752cb2f",
+            "name": "B_BR_Duckbar_frame01223.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01223.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "96d4953f6de44bb3a8f7fe93d603a7e0": {
+            "format": "jpg",
+            "id": "96d4953f6de44bb3a8f7fe93d603a7e0",
+            "name": "B_BR_Duckbar_frame01278.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01278.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "692dc57ff5fa56a1e992f714951959f6": {
+            "format": "jpg",
+            "id": "692dc57ff5fa56a1e992f714951959f6",
+            "name": "B_BR_Duckbar_frame01300.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01300.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9c187f6d3804cb8670ddfbd06e1ca1d": {
+            "format": "jpg",
+            "id": "d9c187f6d3804cb8670ddfbd06e1ca1d",
+            "name": "B_BR_Duckbar_frame01333.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01333.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ed794c4f61b774e65255d787d2a8c97": {
+            "format": "jpg",
+            "id": "2ed794c4f61b774e65255d787d2a8c97",
+            "name": "B_BR_Duckbar_frame01344.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01344.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6285a43cbf4dfeb5065d7fbedd4e639d": {
+            "format": "jpg",
+            "id": "6285a43cbf4dfeb5065d7fbedd4e639d",
+            "name": "B_BR_Duckbar_frame01355.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01355.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4fd0bf5446500a289dd25dbecf3866fc": {
+            "format": "jpg",
+            "id": "4fd0bf5446500a289dd25dbecf3866fc",
+            "name": "B_BR_Duckbar_frame01453.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01453.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "030f7bc44f8c5109512113f785560237": {
+            "format": "jpg",
+            "id": "030f7bc44f8c5109512113f785560237",
+            "name": "B_BR_Duckbar_frame01795.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_BR_Duckbar_frame01795.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "cf6418bc3eb50d9cb60b6409c58ad323": {
+            "format": "jpg",
+            "id": "cf6418bc3eb50d9cb60b6409c58ad323",
+            "name": "B_CR_Duckbar_frame01492.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_CR_Duckbar_frame01492.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04e3f5bfb898b9507b484eab0bfb9149": {
+            "format": "jpg",
+            "id": "04e3f5bfb898b9507b484eab0bfb9149",
+            "name": "B_CR_Duckbar_frame01532.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_CR_Duckbar_frame01532.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a4f3abbd8e98a48bbd04c5061e8a187": {
+            "format": "jpg",
+            "id": "3a4f3abbd8e98a48bbd04c5061e8a187",
+            "name": "B_CR_Duckbar_frame01565.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_CR_Duckbar_frame01565.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d62ac72514e97a3d62033534e342b008": {
+            "format": "jpg",
+            "id": "d62ac72514e97a3d62033534e342b008",
+            "name": "B_CR_Duckbar_frame02369.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_CR_Duckbar_frame02369.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70b54f7ab425b4b95574e7d476568caa": {
+            "format": "jpg",
+            "id": "70b54f7ab425b4b95574e7d476568caa",
+            "name": "B_CR_Duckbar_frame02330.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_CR_Duckbar_frame02330.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7d2d4cbb66712a16895682878a6ca2eb": {
+            "format": "jpg",
+            "id": "7d2d4cbb66712a16895682878a6ca2eb",
+            "name": "B_CR_Duckbar_frame02427.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_CR_Duckbar_frame02427.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "06dfc67565cc80f7b4d28b53800ed862": {
+            "format": "jpg",
+            "id": "06dfc67565cc80f7b4d28b53800ed862",
+            "name": "B_CR_Duckbar_frame02437.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_CR_Duckbar_frame02437.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d26d07d7e7bbb95f13be92b68a77fcb": {
+            "format": "jpg",
+            "id": "1d26d07d7e7bbb95f13be92b68a77fcb",
+            "name": "B_CR_Duckbar_frame02439.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/B_CR_Duckbar_frame02439.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e8146a43c72436b2b5a4cae97bc8945": {
+            "format": "jpg",
+            "id": "9e8146a43c72436b2b5a4cae97bc8945",
+            "name": "Blue_BR_Duckbar_frame00125.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00125.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80e8717e9918934da91b2530c117e893": {
+            "format": "jpg",
+            "id": "80e8717e9918934da91b2530c117e893",
+            "name": "Blue_BR_Duckbar_frame00146.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00146.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "37c1567b4fd79306f680861a15d6c9ca": {
+            "format": "jpg",
+            "id": "37c1567b4fd79306f680861a15d6c9ca",
+            "name": "Blue_BR_Duckbar_frame00169.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00169.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44c3da87a361cf9fc1c3a146495612be": {
+            "format": "jpg",
+            "id": "44c3da87a361cf9fc1c3a146495612be",
+            "name": "Blue_BR_Duckbar_frame00207.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00207.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "100ae3d1c188e66e699d61a4ace5c3ce": {
+            "format": "jpg",
+            "id": "100ae3d1c188e66e699d61a4ace5c3ce",
+            "name": "Blue_BR_Duckbar_frame00306.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00306.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee798f73c3dd513e285f53bd8da2eb8a": {
+            "format": "jpg",
+            "id": "ee798f73c3dd513e285f53bd8da2eb8a",
+            "name": "Blue_BR_Duckbar_frame00424.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00424.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "949dc6ee2262103788b689719a30a03f": {
+            "format": "jpg",
+            "id": "949dc6ee2262103788b689719a30a03f",
+            "name": "Blue_BR_Duckbar_frame00500.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00500.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98d17ad90b966d23367cb44284700a90": {
+            "format": "jpg",
+            "id": "98d17ad90b966d23367cb44284700a90",
+            "name": "Blue_BR_Duckbar_frame00634.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00634.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5ad1830fa669970b188402f96930e294": {
+            "format": "jpg",
+            "id": "5ad1830fa669970b188402f96930e294",
+            "name": "Blue_BR_Duckbar_frame00657.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00657.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6907fcc48f0a4b448ffdef2eae6123fe": {
+            "format": "jpg",
+            "id": "6907fcc48f0a4b448ffdef2eae6123fe",
+            "name": "Blue_BR_Duckbar_frame00812.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame00812.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1f2dd15e7a8fbe31735fe375869ab896": {
+            "format": "jpg",
+            "id": "1f2dd15e7a8fbe31735fe375869ab896",
+            "name": "Blue_BR_Duckbar_frame01363.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame01363.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "899e3a3f6106048a561a7242200e81b5": {
+            "format": "jpg",
+            "id": "899e3a3f6106048a561a7242200e81b5",
+            "name": "Blue_BR_Duckbar_frame01471.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame01471.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa24754f97bc61eb31f032344c94973d": {
+            "format": "jpg",
+            "id": "fa24754f97bc61eb31f032344c94973d",
+            "name": "Blue_BR_Duckbar_frame01570.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Blue_BR_Duckbar_frame01570.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "73d1f0c4836c1908e0775047c24db9cf": {
+            "format": "jpg",
+            "id": "73d1f0c4836c1908e0775047c24db9cf",
+            "name": "D_BR_Duckbar_frame00221.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_BR_Duckbar_frame00221.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "59fbc2a1d4e042a063b71bc86fe71950": {
+            "format": "jpg",
+            "id": "59fbc2a1d4e042a063b71bc86fe71950",
+            "name": "D_BR_Duckbar_frame00242.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_BR_Duckbar_frame00242.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d03ee901168b4e6b2fb74f358142bee5": {
+            "format": "jpg",
+            "id": "d03ee901168b4e6b2fb74f358142bee5",
+            "name": "D_BR_Duckbar_frame00253.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_BR_Duckbar_frame00253.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76639357ec8a16499d146a5e847760fa": {
+            "format": "jpg",
+            "id": "76639357ec8a16499d146a5e847760fa",
+            "name": "D_BR_Duckbar_frame00264.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_BR_Duckbar_frame00264.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "52e44582c3bc380d70d6710198bab971": {
+            "format": "jpg",
+            "id": "52e44582c3bc380d70d6710198bab971",
+            "name": "D_BR_Duckbar_frame00307.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_BR_Duckbar_frame00307.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0c29acbcb922048434ee95c843d58fd": {
+            "format": "jpg",
+            "id": "d0c29acbcb922048434ee95c843d58fd",
+            "name": "D_BR_Duckbar_frame00383.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_BR_Duckbar_frame00383.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11504574842e9af95b81c28047dc1838": {
+            "format": "jpg",
+            "id": "11504574842e9af95b81c28047dc1838",
+            "name": "D_BR_Duckbar_frame00643.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_BR_Duckbar_frame00643.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5d90a056c2a2148b3e811b12618c123a": {
+            "format": "jpg",
+            "id": "5d90a056c2a2148b3e811b12618c123a",
+            "name": "D_BR_Duckbar_frame00603.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_BR_Duckbar_frame00603.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3837f32b421bf7bad9cfb6717325274c": {
+            "format": "jpg",
+            "id": "3837f32b421bf7bad9cfb6717325274c",
+            "name": "D_CR_Duckbar_frame00022.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_CR_Duckbar_frame00022.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "53268b3c38caa8de87be7cced63ac73a": {
+            "format": "jpg",
+            "id": "53268b3c38caa8de87be7cced63ac73a",
+            "name": "D_CR_Duckbar_frame00139.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_CR_Duckbar_frame00139.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "526008228164cd457d24159ce14b2475": {
+            "format": "jpg",
+            "id": "526008228164cd457d24159ce14b2475",
+            "name": "D_CR_Duckbar_frame00478.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_CR_Duckbar_frame00478.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "24f007c3ca71636eee431722a4cf17a4": {
+            "format": "jpg",
+            "id": "24f007c3ca71636eee431722a4cf17a4",
+            "name": "D_CR_Duckbar_frame00489.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_CR_Duckbar_frame00489.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "2cc5d4ccad22ebb7bb9d4bb0ff2c90d1": {
+            "format": "jpg",
+            "id": "2cc5d4ccad22ebb7bb9d4bb0ff2c90d1",
+            "name": "D_CR_Duckbar_frame01806.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_CR_Duckbar_frame01806.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "93a576269fa9bd14b872cb613948286c": {
+            "format": "jpg",
+            "id": "93a576269fa9bd14b872cb613948286c",
+            "name": "D_CR_Duckbar_frame01835.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_CR_Duckbar_frame01835.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2e72892aef458f6f345291fa8fff225a": {
+            "format": "jpg",
+            "id": "2e72892aef458f6f345291fa8fff225a",
+            "name": "D_CR_Duckbar_frame02184.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_CR_Duckbar_frame02184.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b58ce5aa972dc0c7dc4ec334885e8279": {
+            "format": "jpg",
+            "id": "b58ce5aa972dc0c7dc4ec334885e8279",
+            "name": "D_CR_Duckbar_frame02207.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/D_CR_Duckbar_frame02207.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bfe2208655a941793cc5efe0718346d1": {
+            "format": "jpg",
+            "id": "bfe2208655a941793cc5efe0718346d1",
+            "name": "Green_BR_Duckbar_frame00452.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Green_BR_Duckbar_frame00452.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0b56527387f37387ae965ba71daa7a1c": {
+            "format": "jpg",
+            "id": "0b56527387f37387ae965ba71daa7a1c",
+            "name": "Green_BR_Duckbar_frame00490.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Green_BR_Duckbar_frame00490.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2caccc6fbe41efd061186703f4d76d8d": {
+            "format": "jpg",
+            "id": "2caccc6fbe41efd061186703f4d76d8d",
+            "name": "Green_BR_Duckbar_frame00526.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/Green_BR_Duckbar_frame00526.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d278dfac3eafdb9c84d270592c96085": {
+            "format": "jpg",
+            "id": "2d278dfac3eafdb9c84d270592c96085",
+            "name": "M_BR_Duckbar_frame00762.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_BR_Duckbar_frame00762.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f959ec538b3e99bddca32a4be6d5935c": {
+            "format": "jpg",
+            "id": "f959ec538b3e99bddca32a4be6d5935c",
+            "name": "M_BR_Duckbar_frame00869.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_BR_Duckbar_frame00869.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62dd3f6629a6b74f6862dfd0fce8ab8c": {
+            "format": "jpg",
+            "id": "62dd3f6629a6b74f6862dfd0fce8ab8c",
+            "name": "M_CR_Duckbar_frame00717.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00717.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba6ec4713be966eb556f00d4e9747fa5": {
+            "format": "jpg",
+            "id": "ba6ec4713be966eb556f00d4e9747fa5",
+            "name": "M_CR_Duckbar_frame00616.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00616.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "659d83936195a77ee7b599447335b657": {
+            "format": "jpg",
+            "id": "659d83936195a77ee7b599447335b657",
+            "name": "M_CR_Duckbar_frame00730.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00730.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef8f241d4f42772fb1c864cc2f91bf85": {
+            "format": "jpg",
+            "id": "ef8f241d4f42772fb1c864cc2f91bf85",
+            "name": "M_CR_Duckbar_frame00732.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00732.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "52cbdbecbcc08a4f74817bb755e5f108": {
+            "format": "jpg",
+            "id": "52cbdbecbcc08a4f74817bb755e5f108",
+            "name": "M_CR_Duckbar_frame00744.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00744.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7746a202fa34d778885d64af10bfaffe": {
+            "format": "jpg",
+            "id": "7746a202fa34d778885d64af10bfaffe",
+            "name": "M_CR_Duckbar_frame00758.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00758.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf36bb4f120577411b46e1acc143467d": {
+            "format": "jpg",
+            "id": "cf36bb4f120577411b46e1acc143467d",
+            "name": "M_CR_Duckbar_frame00778.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00778.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a74103122394c650104ddafbda8b328b": {
+            "format": "jpg",
+            "id": "a74103122394c650104ddafbda8b328b",
+            "name": "M_CR_Duckbar_frame00796.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00796.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6fac84fda9f1ab2b53549feacc87fafb": {
+            "format": "jpg",
+            "id": "6fac84fda9f1ab2b53549feacc87fafb",
+            "name": "M_CR_Duckbar_frame00869.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00869.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9ae84a7f07945e45ec74ddad04580875": {
+            "format": "jpg",
+            "id": "9ae84a7f07945e45ec74ddad04580875",
+            "name": "M_CR_Duckbar_frame00882.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00882.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "189ff26c9973e7f5efedd6729f27f83e": {
+            "format": "jpg",
+            "id": "189ff26c9973e7f5efedd6729f27f83e",
+            "name": "M_CR_Duckbar_frame00909.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame00909.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5aea3b934f3ec4e0b13d54d6bf0f600a": {
+            "format": "jpg",
+            "id": "5aea3b934f3ec4e0b13d54d6bf0f600a",
+            "name": "M_CR_Duckbar_frame01072.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame01072.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08354594668c24dff188ed79c8ee3a38": {
+            "format": "jpg",
+            "id": "08354594668c24dff188ed79c8ee3a38",
+            "name": "M_CR_Duckbar_frame01076.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame01076.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a1868c46e34f239f40026b963f7326a": {
+            "format": "jpg",
+            "id": "8a1868c46e34f239f40026b963f7326a",
+            "name": "M_CR_Duckbar_frame01077.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/M_CR_Duckbar_frame01077.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5eb8a949f77a5f8d6819d345ddfc7f49": {
+            "format": "jpg",
+            "id": "5eb8a949f77a5f8d6819d345ddfc7f49",
+            "name": "b_BR_doort_frame00585.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame00585.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0ca4b69eb435a93899e8fb42b94b8703": {
+            "format": "jpg",
+            "id": "0ca4b69eb435a93899e8fb42b94b8703",
+            "name": "b_BR_doort_frame00596.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame00596.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a3a55b33051eacbedf0b36c695651a87": {
+            "format": "jpg",
+            "id": "a3a55b33051eacbedf0b36c695651a87",
+            "name": "b_BR_doort_frame00600.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame00600.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "14d9c4bd7cdb76fcaca66d1db0729f0c": {
+            "format": "jpg",
+            "id": "14d9c4bd7cdb76fcaca66d1db0729f0c",
+            "name": "b_BR_doort_frame00606.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame00606.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "09e223ffdd662581dda33d5d9f593124": {
+            "format": "jpg",
+            "id": "09e223ffdd662581dda33d5d9f593124",
+            "name": "b_BR_doort_frame01168.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame01168.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bd8875a6079bac55a5410b1a25ba4014": {
+            "format": "jpg",
+            "id": "bd8875a6079bac55a5410b1a25ba4014",
+            "name": "b_BR_doort_frame01181.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame01181.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af7c48f34daa19066df539852db60ac4": {
+            "format": "jpg",
+            "id": "af7c48f34daa19066df539852db60ac4",
+            "name": "b_BR_doort_frame01220.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame01220.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "18b61e951fc8fac71b812ece68dfffee": {
+            "format": "jpg",
+            "id": "18b61e951fc8fac71b812ece68dfffee",
+            "name": "b_BR_doort_frame01276.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame01276.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c6e26427f4e46b61279c6df836cf773d": {
+            "format": "jpg",
+            "id": "c6e26427f4e46b61279c6df836cf773d",
+            "name": "b_BR_doort_frame01297.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame01297.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d21bd890787af3c40dd3477ebb234a68": {
+            "format": "jpg",
+            "id": "d21bd890787af3c40dd3477ebb234a68",
+            "name": "b_BR_doort_frame01447.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame01447.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "18d5f7238f04b75c3d003fbb855179d0": {
+            "format": "jpg",
+            "id": "18d5f7238f04b75c3d003fbb855179d0",
+            "name": "b_BR_doort_frame01472.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame01472.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "85d906d32fe501e9c0d797f0d8657931": {
+            "format": "jpg",
+            "id": "85d906d32fe501e9c0d797f0d8657931",
+            "name": "b_BR_doort_frame01948.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame01948.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c5641ced2a2a8afb4a615bb787b9758": {
+            "format": "jpg",
+            "id": "1c5641ced2a2a8afb4a615bb787b9758",
+            "name": "b_BR_doort_frame02040.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_BR_doort_frame02040.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1a8b8cba13c4320a5c7e89935ca17e68": {
+            "format": "jpg",
+            "id": "1a8b8cba13c4320a5c7e89935ca17e68",
+            "name": "b_CR_doort_frame00231.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame00231.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f45a204222a392e12af0dfb182bc91a6": {
+            "format": "jpg",
+            "id": "f45a204222a392e12af0dfb182bc91a6",
+            "name": "b_CR_doort_frame00243.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame00243.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c78d5860f3f0527c4caa15311a27f86f": {
+            "format": "jpg",
+            "id": "c78d5860f3f0527c4caa15311a27f86f",
+            "name": "b_CR_doort_frame01320.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01320.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d5719b2fd967cb3fa62347a9d8e327c": {
+            "format": "jpg",
+            "id": "4d5719b2fd967cb3fa62347a9d8e327c",
+            "name": "b_CR_doort_frame01355.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01355.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "476edcb47176980d400fa6a51a72d334": {
+            "format": "jpg",
+            "id": "476edcb47176980d400fa6a51a72d334",
+            "name": "b_CR_doort_frame01504.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01504.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1231e4e4b5090fa03ac60f9c989fd016": {
+            "format": "jpg",
+            "id": "1231e4e4b5090fa03ac60f9c989fd016",
+            "name": "b_CR_doort_frame01505.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01505.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78b0bffd9daa5bca28ab7b4c4e2a443e": {
+            "format": "jpg",
+            "id": "78b0bffd9daa5bca28ab7b4c4e2a443e",
+            "name": "b_CR_doort_frame01515.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01515.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6873d25fb06d3d4c01a4396de637ca6f": {
+            "format": "jpg",
+            "id": "6873d25fb06d3d4c01a4396de637ca6f",
+            "name": "b_CR_doort_frame01558.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01558.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1f105707df259256fb766b9b1b14a200": {
+            "format": "jpg",
+            "id": "1f105707df259256fb766b9b1b14a200",
+            "name": "b_CR_doort_frame01578.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01578.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db067a1556dbeddabe9e63c829603857": {
+            "format": "jpg",
+            "id": "db067a1556dbeddabe9e63c829603857",
+            "name": "b_CR_doort_frame01600.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01600.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a4f15e12d6fd5f1bb10c6ec70458997": {
+            "format": "jpg",
+            "id": "1a4f15e12d6fd5f1bb10c6ec70458997",
+            "name": "b_CR_doort_frame01602.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_CR_doort_frame01602.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7ebdfcbac0c0c76e5b9a6c1729579f18": {
+            "format": "jpg",
+            "id": "7ebdfcbac0c0c76e5b9a6c1729579f18",
+            "name": "b_br_yanberbot_1437.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_1437.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6cd7821c078f81e6e67c3eb6ccb64ee3": {
+            "format": "jpg",
+            "id": "6cd7821c078f81e6e67c3eb6ccb64ee3",
+            "name": "b_br_yanberbot_1396.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_1396.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8e2d02529226112f8858a14f9ef2780d": {
+            "format": "jpg",
+            "id": "8e2d02529226112f8858a14f9ef2780d",
+            "name": "b_br_yanberbot_2106.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_2106.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51b92f4815b7151d33d959a85af41aa8": {
+            "format": "jpg",
+            "id": "51b92f4815b7151d33d959a85af41aa8",
+            "name": "b_br_yanberbot_2171.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_2171.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "de27af18a26e4cc434d0f53704c843fb": {
+            "format": "jpg",
+            "id": "de27af18a26e4cc434d0f53704c843fb",
+            "name": "b_br_yanberbot_2214.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_2214.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a3d691fd14b0fb87d8b160a9d1a413c8": {
+            "format": "jpg",
+            "id": "a3d691fd14b0fb87d8b160a9d1a413c8",
+            "name": "b_br_yanberbot_2316.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_2316.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "260d7f8c8933bf6a4f438fec9270d399": {
+            "format": "jpg",
+            "id": "260d7f8c8933bf6a4f438fec9270d399",
+            "name": "b_br_yanberbot_3270.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_3270.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "497d0458a3d689841ddbb772a831fdeb": {
+            "format": "jpg",
+            "id": "497d0458a3d689841ddbb772a831fdeb",
+            "name": "b_br_yanberbot_3660.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_3660.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "09834bb7d632a4cc9812eab69bd2b20d": {
+            "format": "jpg",
+            "id": "09834bb7d632a4cc9812eab69bd2b20d",
+            "name": "b_br_yanberbot_3696.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_3696.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8db2cf950f92f490af5950f5f8ed5fe5": {
+            "format": "jpg",
+            "id": "8db2cf950f92f490af5950f5f8ed5fe5",
+            "name": "b_br_yanberbot_3716.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_yanberbot_3716.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "994238c0e7aa7afdca1aa45ef5ee80ff": {
+            "format": "jpg",
+            "id": "994238c0e7aa7afdca1aa45ef5ee80ff",
+            "name": "b_br_zgxbot_00023.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_zgxbot_00023.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f9d8f4af61c25259673d60565da103dd": {
+            "format": "jpg",
+            "id": "f9d8f4af61c25259673d60565da103dd",
+            "name": "b_br_zgxbot_00024.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_zgxbot_00024.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62ea90731ba3198ca305ecee33956e9a": {
+            "format": "jpg",
+            "id": "62ea90731ba3198ca305ecee33956e9a",
+            "name": "b_br_zgxbot_00025.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_zgxbot_00025.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7eaa65567fe8728a34608fdbceafdd68": {
+            "format": "jpg",
+            "id": "7eaa65567fe8728a34608fdbceafdd68",
+            "name": "b_br_zgxbot_00044.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_zgxbot_00044.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2bd82a4e0eedbab0baeae0119215d83": {
+            "format": "jpg",
+            "id": "b2bd82a4e0eedbab0baeae0119215d83",
+            "name": "b_br_zgxbot_00045.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_zgxbot_00045.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "712a39fa6d4af1b923a250fee8876fed": {
+            "format": "jpg",
+            "id": "712a39fa6d4af1b923a250fee8876fed",
+            "name": "b_br_zgxbot_00050.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_zgxbot_00050.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3b6f03d4c927e047dbd223747bdc429": {
+            "format": "jpg",
+            "id": "c3b6f03d4c927e047dbd223747bdc429",
+            "name": "b_br_zgxbot_00053.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_zgxbot_00053.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c7e35cbfe9853f1e1574df00a8e83ecb": {
+            "format": "jpg",
+            "id": "c7e35cbfe9853f1e1574df00a8e83ecb",
+            "name": "b_br_zgxbot_00054.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_br_zgxbot_00054.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ae403fddc97cae3dc2a8fcc49790f1f": {
+            "format": "jpg",
+            "id": "6ae403fddc97cae3dc2a8fcc49790f1f",
+            "name": "b_cr_yanberbot_0857.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_yanberbot_0857.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ba3d08f25574ef39f9c2769e8ea5e02": {
+            "format": "jpg",
+            "id": "9ba3d08f25574ef39f9c2769e8ea5e02",
+            "name": "b_cr_yanberbot_0889.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_yanberbot_0889.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f94cafbdbb3553713a456460dca8fed8": {
+            "format": "jpg",
+            "id": "f94cafbdbb3553713a456460dca8fed8",
+            "name": "b_cr_zgxbot_00044.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00044.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "005e9c2c70c81765f8660933f6286af6": {
+            "format": "jpg",
+            "id": "005e9c2c70c81765f8660933f6286af6",
+            "name": "b_cr_zgxbot_00048.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00048.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "81c5ed70c50aeb2a72f165f336a22097": {
+            "format": "jpg",
+            "id": "81c5ed70c50aeb2a72f165f336a22097",
+            "name": "b_cr_zgxbot_00050.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00050.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d2786b898678d26932dee10b797e8d0e": {
+            "format": "jpg",
+            "id": "d2786b898678d26932dee10b797e8d0e",
+            "name": "b_cr_zgxbot_00100.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00100.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e39d38657e1e9858282be56e1836166e": {
+            "format": "jpg",
+            "id": "e39d38657e1e9858282be56e1836166e",
+            "name": "b_cr_zgxbot_00104.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00104.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2fa76beb111d9722d61d2e656a50101b": {
+            "format": "jpg",
+            "id": "2fa76beb111d9722d61d2e656a50101b",
+            "name": "b_cr_zgxbot_00102.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00102.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea3dcff67b79820bb3c28692b0194179": {
+            "format": "jpg",
+            "id": "ea3dcff67b79820bb3c28692b0194179",
+            "name": "b_cr_zgxbot_00103.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00103.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cb368773ab35c73dcc4ae7f730c4ccf8": {
+            "format": "jpg",
+            "id": "cb368773ab35c73dcc4ae7f730c4ccf8",
+            "name": "b_cr_zgxbot_00114.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00114.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4a8bab96b706c079fb2685b0cbffb7d9": {
+            "format": "jpg",
+            "id": "4a8bab96b706c079fb2685b0cbffb7d9",
+            "name": "b_cr_zgxbot_00118.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00118.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9a4edeb7924d2bf76626a456e1d521d": {
+            "format": "jpg",
+            "id": "d9a4edeb7924d2bf76626a456e1d521d",
+            "name": "b_cr_zgxbot_00113.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/b_cr_zgxbot_00113.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "37e8d03fe12b2156ebfa7c516315104d": {
+            "format": "jpg",
+            "id": "37e8d03fe12b2156ebfa7c516315104d",
+            "name": "blue_BR_doort_frame00021.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_BR_doort_frame00021.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d4452b67237b8f1d6f2a7fe12204f4a9": {
+            "format": "jpg",
+            "id": "d4452b67237b8f1d6f2a7fe12204f4a9",
+            "name": "blue_BR_doort_frame00109.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_BR_doort_frame00109.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "157ef16c30c5ef249edf1bfefc744064": {
+            "format": "jpg",
+            "id": "157ef16c30c5ef249edf1bfefc744064",
+            "name": "blue_BR_doort_frame00125.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_BR_doort_frame00125.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ca81a91d46f8a0fd1c11d10938b8132c": {
+            "format": "jpg",
+            "id": "ca81a91d46f8a0fd1c11d10938b8132c",
+            "name": "blue_BR_doort_frame00489.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_BR_doort_frame00489.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c230eef0b340555a938cae8e78e5756f": {
+            "format": "jpg",
+            "id": "c230eef0b340555a938cae8e78e5756f",
+            "name": "blue_BR_doort_frame00951.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_BR_doort_frame00951.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f3239ae39c0406bd3a3b06060ff8c76c": {
+            "format": "jpg",
+            "id": "f3239ae39c0406bd3a3b06060ff8c76c",
+            "name": "blue_BR_doort_frame00966.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_BR_doort_frame00966.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8e8f8303561fb3e59a956521d1e3b9ff": {
+            "format": "jpg",
+            "id": "8e8f8303561fb3e59a956521d1e3b9ff",
+            "name": "blue_br_yanberbot_0619.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_br_yanberbot_0619.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea6623086810eedea09e25d4e88f4bae": {
+            "format": "jpg",
+            "id": "ea6623086810eedea09e25d4e88f4bae",
+            "name": "blue_br_yanberbot_0751.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_br_yanberbot_0751.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf4a223e228636646f3f941e1a41bc61": {
+            "format": "jpg",
+            "id": "bf4a223e228636646f3f941e1a41bc61",
+            "name": "blue_br_yanberbot_0819.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/blue_br_yanberbot_0819.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db33216c0dd27a220da4f2892f6037a8": {
+            "format": "jpg",
+            "id": "db33216c0dd27a220da4f2892f6037a8",
+            "name": "d_BR_doort_frame01477.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/d_BR_doort_frame01477.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3649f17f0fde5d768aca0d7e52b87bfd": {
+            "format": "jpg",
+            "id": "3649f17f0fde5d768aca0d7e52b87bfd",
+            "name": "d_CR_doort_frame01263.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/d_CR_doort_frame01263.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5a78c766665efab421810c09abe7eca": {
+            "format": "jpg",
+            "id": "c5a78c766665efab421810c09abe7eca",
+            "name": "d_cr_yanberbot_1637.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/d_cr_yanberbot_1637.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b292d73903b3fb1779804d2a3c52f882": {
+            "format": "jpg",
+            "id": "b292d73903b3fb1779804d2a3c52f882",
+            "name": "d_cr_zgxbot_00014.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/d_cr_zgxbot_00014.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb73d11cd8bfe901d81ce3320be73d88": {
+            "format": "jpg",
+            "id": "fb73d11cd8bfe901d81ce3320be73d88",
+            "name": "d_cr_yanberbot_1510.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/d_cr_yanberbot_1510.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d990fe21d6308b26a86407aa18fb6a34": {
+            "format": "jpg",
+            "id": "d990fe21d6308b26a86407aa18fb6a34",
+            "name": "green_BR_doort_frame00272.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_BR_doort_frame00272.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0d419aaa6ab924d348ab7d5fdb18c00f": {
+            "format": "jpg",
+            "id": "0d419aaa6ab924d348ab7d5fdb18c00f",
+            "name": "green_BR_doort_frame00238.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_BR_doort_frame00238.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "02ada5cc3699843ad538cf5597a263e2": {
+            "format": "jpg",
+            "id": "02ada5cc3699843ad538cf5597a263e2",
+            "name": "green_BR_doort_frame00327.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_BR_doort_frame00327.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd59687268ddfa75b34454b11a73b130": {
+            "format": "jpg",
+            "id": "fd59687268ddfa75b34454b11a73b130",
+            "name": "green_BR_doort_frame00477.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_BR_doort_frame00477.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ffb1347fef463547237da58e8df36936": {
+            "format": "jpg",
+            "id": "ffb1347fef463547237da58e8df36936",
+            "name": "green_BR_doort_frame01562.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_BR_doort_frame01562.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f05d358f1f5b1c2b06ae4321b933bbc6": {
+            "format": "jpg",
+            "id": "f05d358f1f5b1c2b06ae4321b933bbc6",
+            "name": "green_BR_doort_frame01645.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_BR_doort_frame01645.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ed15fd1c32d49080157296847864e76": {
+            "format": "jpg",
+            "id": "1ed15fd1c32d49080157296847864e76",
+            "name": "green_BR_doort_frame01942.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_BR_doort_frame01942.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "116ed04a18572317b5099b1fc32b621b": {
+            "format": "jpg",
+            "id": "116ed04a18572317b5099b1fc32b621b",
+            "name": "green_br_yanberbot_0169.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_yanberbot_0169.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5ca831ce71d437d46f29890ba4f7a72": {
+            "format": "jpg",
+            "id": "c5ca831ce71d437d46f29890ba4f7a72",
+            "name": "green_br_yanberbot_0206.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_yanberbot_0206.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b15f951859d94a979f385e82fc2b09c": {
+            "format": "jpg",
+            "id": "3b15f951859d94a979f385e82fc2b09c",
+            "name": "green_br_yanberbot_0308.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_yanberbot_0308.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d80701a7610fc2f1ffdca49635d934fc": {
+            "format": "jpg",
+            "id": "d80701a7610fc2f1ffdca49635d934fc",
+            "name": "green_br_yanberbot_0326.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_yanberbot_0326.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b36b4e70ed096ac48108fa251320b249": {
+            "format": "jpg",
+            "id": "b36b4e70ed096ac48108fa251320b249",
+            "name": "green_br_yanberbot_2050.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_yanberbot_2050.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a414d7f96356000460e4987ff8f548a4": {
+            "format": "jpg",
+            "id": "a414d7f96356000460e4987ff8f548a4",
+            "name": "green_br_yanberbot_2194.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_yanberbot_2194.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68e24cb2184d03cfa559cd43ef54aa39": {
+            "format": "jpg",
+            "id": "68e24cb2184d03cfa559cd43ef54aa39",
+            "name": "green_br_zgxbot_00030.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00030.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "69c4a1711199d7a3b0e9f4bea92d49fa": {
+            "format": "jpg",
+            "id": "69c4a1711199d7a3b0e9f4bea92d49fa",
+            "name": "green_br_zgxbot_00031.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00031.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20a397c4e7cdc6120a11482ba619a571": {
+            "format": "jpg",
+            "id": "20a397c4e7cdc6120a11482ba619a571",
+            "name": "green_br_zgxbot_00032.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00032.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e9bd56fa1c94e6c2dfdae8532b136e2e": {
+            "format": "jpg",
+            "id": "e9bd56fa1c94e6c2dfdae8532b136e2e",
+            "name": "green_br_zgxbot_00033.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00033.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7cd972bd67ff3ac3492ac00b5b88a962": {
+            "format": "jpg",
+            "id": "7cd972bd67ff3ac3492ac00b5b88a962",
+            "name": "green_br_zgxbot_00036.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00036.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "438b6274d85949661924b06bf93afe10": {
+            "format": "jpg",
+            "id": "438b6274d85949661924b06bf93afe10",
+            "name": "green_br_zgxbot_00041.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00041.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "83339c9038e63e354121b6e071e71611": {
+            "format": "jpg",
+            "id": "83339c9038e63e354121b6e071e71611",
+            "name": "green_br_zgxbot_00059.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00059.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "388b22a0a198bb0572cbb4bc979d3918": {
+            "format": "jpg",
+            "id": "388b22a0a198bb0572cbb4bc979d3918",
+            "name": "green_br_zgxbot_00058.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00058.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "923810c547462113b0902d318ee4b820": {
+            "format": "jpg",
+            "id": "923810c547462113b0902d318ee4b820",
+            "name": "green_br_zgxbot_00060.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00060.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aefd90eaebfb75b0aeff6630ea433612": {
+            "format": "jpg",
+            "id": "aefd90eaebfb75b0aeff6630ea433612",
+            "name": "green_br_zgxbot_00062.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00062.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0ca7af8ed88573d263e1f31e4d212544": {
+            "format": "jpg",
+            "id": "0ca7af8ed88573d263e1f31e4d212544",
+            "name": "green_br_zgxbot_00063.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00063.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e7fd1639ad208c46894c9ce8ee58df3": {
+            "format": "jpg",
+            "id": "9e7fd1639ad208c46894c9ce8ee58df3",
+            "name": "green_br_zgxbot_00064.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00064.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6f195cff97c8e69af72295ae4811bed3": {
+            "format": "jpg",
+            "id": "6f195cff97c8e69af72295ae4811bed3",
+            "name": "green_br_zgxbot_00130.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00130.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "21ac45948a357b51cb2ac52152c553ce": {
+            "format": "jpg",
+            "id": "21ac45948a357b51cb2ac52152c553ce",
+            "name": "green_br_zgxbot_00131.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00131.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3370b6d6dfcfa0ce4b631a0f6a85d5d8": {
+            "format": "jpg",
+            "id": "3370b6d6dfcfa0ce4b631a0f6a85d5d8",
+            "name": "green_br_zgxbot_00177.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00177.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1b19ba699e5248dba56d62f4f2749351": {
+            "format": "jpg",
+            "id": "1b19ba699e5248dba56d62f4f2749351",
+            "name": "green_br_zgxbot_00176.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00176.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2694529bb97bd5176a14a19a1d8066e2": {
+            "format": "jpg",
+            "id": "2694529bb97bd5176a14a19a1d8066e2",
+            "name": "green_br_zgxbot_00178.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00178.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c1e453890af61e4b308f723bad08ee37": {
+            "format": "jpg",
+            "id": "c1e453890af61e4b308f723bad08ee37",
+            "name": "green_br_zgxbot_00226.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/green_br_zgxbot_00226.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdb89701450a9b68e9a0e6fa8254b5d8": {
+            "format": "jpg",
+            "id": "fdb89701450a9b68e9a0e6fa8254b5d8",
+            "name": "m_BR_doort_frame00992.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_BR_doort_frame00992.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "534a612b76f3d4c9835621f3dd7e66ba": {
+            "format": "jpg",
+            "id": "534a612b76f3d4c9835621f3dd7e66ba",
+            "name": "m_CR_doort_frame00019.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame00019.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a8a94ae49fcdcb8ac8495a7a99328647": {
+            "format": "jpg",
+            "id": "a8a94ae49fcdcb8ac8495a7a99328647",
+            "name": "m_CR_doort_frame00028.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame00028.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cad0449fa1ff55c7bb86fd957309f83e": {
+            "format": "jpg",
+            "id": "cad0449fa1ff55c7bb86fd957309f83e",
+            "name": "m_CR_doort_frame00035.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame00035.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "97742d2321ccfc3cb1497fe5159f0ec0": {
+            "format": "jpg",
+            "id": "97742d2321ccfc3cb1497fe5159f0ec0",
+            "name": "m_CR_doort_frame00551.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame00551.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22a87c6d67ae0516f0f6eba04e8fbc51": {
+            "format": "jpg",
+            "id": "22a87c6d67ae0516f0f6eba04e8fbc51",
+            "name": "m_CR_doort_frame00908.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame00908.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7d8590fece85018a52f6c35690b9bc8b": {
+            "format": "jpg",
+            "id": "7d8590fece85018a52f6c35690b9bc8b",
+            "name": "m_CR_doort_frame00884.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame00884.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a49f19f682d9de9e8739dfca147e636": {
+            "format": "jpg",
+            "id": "0a49f19f682d9de9e8739dfca147e636",
+            "name": "m_CR_doort_frame00923.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame00923.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "87911b081e508bc18aca280205ed34f9": {
+            "format": "jpg",
+            "id": "87911b081e508bc18aca280205ed34f9",
+            "name": "m_CR_doort_frame01040.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame01040.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a38a746a0b8f889527c2bd04ee5cad57": {
+            "format": "jpg",
+            "id": "a38a746a0b8f889527c2bd04ee5cad57",
+            "name": "m_CR_doort_frame01056.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame01056.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32a8dc2603f5fb531c61fd789cf0eac3": {
+            "format": "jpg",
+            "id": "32a8dc2603f5fb531c61fd789cf0eac3",
+            "name": "m_CR_doort_frame01018.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame01018.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b62542c25872251a579eb44eff5b967c": {
+            "format": "jpg",
+            "id": "b62542c25872251a579eb44eff5b967c",
+            "name": "m_CR_doort_frame01137.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame01137.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b7361ea2feaf762ed6d60aec5bc96c2": {
+            "format": "jpg",
+            "id": "6b7361ea2feaf762ed6d60aec5bc96c2",
+            "name": "m_CR_doort_frame01283.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame01283.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "912213209bab6962e89e8008ac979e7a": {
+            "format": "jpg",
+            "id": "912213209bab6962e89e8008ac979e7a",
+            "name": "m_CR_doort_frame01401.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_CR_doort_frame01401.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bd8a131f313ab77b4a3122df556d87f7": {
+            "format": "jpg",
+            "id": "bd8a131f313ab77b4a3122df556d87f7",
+            "name": "m_br_yanberbot_0079.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_0079.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cb0b22188f4256f47688a21c69352c52": {
+            "format": "jpg",
+            "id": "cb0b22188f4256f47688a21c69352c52",
+            "name": "m_br_yanberbot_0112.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_0112.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8dfe56625346f5bb9e3651133c8ea6f": {
+            "format": "jpg",
+            "id": "c8dfe56625346f5bb9e3651133c8ea6f",
+            "name": "m_br_yanberbot_0127.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_0127.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a93d9a1fac8d98756a4543e3063974b": {
+            "format": "jpg",
+            "id": "5a93d9a1fac8d98756a4543e3063974b",
+            "name": "m_br_yanberbot_1630.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_1630.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a53f80aa2ff5b42f7eaaa7861f272570": {
+            "format": "jpg",
+            "id": "a53f80aa2ff5b42f7eaaa7861f272570",
+            "name": "m_br_yanberbot_2048.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_2048.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d0d1d8b1d4d2a215edbd067f3781859": {
+            "format": "jpg",
+            "id": "4d0d1d8b1d4d2a215edbd067f3781859",
+            "name": "m_br_yanberbot_2193.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_2193.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df82c229a0aaf1f453a22e4d6a754dfe": {
+            "format": "jpg",
+            "id": "df82c229a0aaf1f453a22e4d6a754dfe",
+            "name": "m_br_yanberbot_3029.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_3029.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5730cf0f9598eb05de7139d72a4a9e41": {
+            "format": "jpg",
+            "id": "5730cf0f9598eb05de7139d72a4a9e41",
+            "name": "m_br_yanberbot_3055.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_3055.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2f335d434bce61bd86e3def1eaeaecd8": {
+            "format": "jpg",
+            "id": "2f335d434bce61bd86e3def1eaeaecd8",
+            "name": "m_br_yanberbot_3082.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_3082.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "82cd0ff0f6db7e237acfd27e68f8f21d": {
+            "format": "jpg",
+            "id": "82cd0ff0f6db7e237acfd27e68f8f21d",
+            "name": "m_br_yanberbot_3108.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_yanberbot_3108.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4432f21a7e6f8e8e99af23c36e8b035b": {
+            "format": "jpg",
+            "id": "4432f21a7e6f8e8e99af23c36e8b035b",
+            "name": "m_br_zgxbot_00042.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00042.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f766e168c45f20d9b866c679a80dd1d8": {
+            "format": "jpg",
+            "id": "f766e168c45f20d9b866c679a80dd1d8",
+            "name": "m_br_zgxbot_00125.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00125.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3c0a628fed013ff4a3f0a70ea455e552": {
+            "format": "jpg",
+            "id": "3c0a628fed013ff4a3f0a70ea455e552",
+            "name": "m_br_zgxbot_00127.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00127.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ebb86e1fe255db0829516a1d56fda92": {
+            "format": "jpg",
+            "id": "6ebb86e1fe255db0829516a1d56fda92",
+            "name": "m_br_zgxbot_00128.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00128.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c47f99e7df6e9b686676d9943d1ada82": {
+            "format": "jpg",
+            "id": "c47f99e7df6e9b686676d9943d1ada82",
+            "name": "m_br_zgxbot_00129.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00129.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b1fb1f566ade45bd3993f274a45aa85c": {
+            "format": "jpg",
+            "id": "b1fb1f566ade45bd3993f274a45aa85c",
+            "name": "m_br_zgxbot_00130.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00130.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "56242b2f3fb79cf491c06d13ea53b51b": {
+            "format": "jpg",
+            "id": "56242b2f3fb79cf491c06d13ea53b51b",
+            "name": "m_br_zgxbot_00131.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00131.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "040914b0feb5da0d420358ec74fb1142": {
+            "format": "jpg",
+            "id": "040914b0feb5da0d420358ec74fb1142",
+            "name": "m_br_zgxbot_00132.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00132.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5f7a4d93ea31a321348c090e99bcab59": {
+            "format": "jpg",
+            "id": "5f7a4d93ea31a321348c090e99bcab59",
+            "name": "m_br_zgxbot_00136.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00136.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11434984d9b57e9fc315143f4195f715": {
+            "format": "jpg",
+            "id": "11434984d9b57e9fc315143f4195f715",
+            "name": "m_br_zgxbot_00139.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00139.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01bc098f75a561021b70f2f450fcbece": {
+            "format": "jpg",
+            "id": "01bc098f75a561021b70f2f450fcbece",
+            "name": "m_br_zgxbot_00140.jpg",
+            "path": "file:/home/elizaa/catkin_ws2/src/training-images/m_br_zgxbot_00140.jpg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}

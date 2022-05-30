@@ -1,0 +1,70 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>b_br_zgxbot_00023.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/b_br_zgxbot_00023.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>366.73768308921433</xmin>
+        <ymin>108.27708703374775</ymin>
+        <xmax>554.2210386151796</xmax>
+        <ymax>315.4529307282415</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>273.84820239680425</xmin>
+        <ymin>179.89342806394313</ymin>
+        <xmax>309.64047936085217</xmax>
+        <ymax>223.37477797513318</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>82.10386151797603</xmin>
+        <ymin>190.12433392539964</ymin>
+        <xmax>117.04394141145139</xmax>
+        <ymax>219.11190053285966</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>53.98135818908122</xmin>
+        <ymin>190.12433392539964</ymin>
+        <xmax>75.28628495339547</xmax>
+        <ymax>219.96447602131437</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>42.90279627163782</xmin>
+        <ymin>123.62344582593249</ymin>
+        <xmax>71.02529960053262</xmax>
+        <ymax>150.9058614564831</ymax>
+    </bndbox>
+</object>
+</annotation>

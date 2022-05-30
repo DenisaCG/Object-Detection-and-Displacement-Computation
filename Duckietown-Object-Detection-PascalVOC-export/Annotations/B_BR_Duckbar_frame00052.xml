@@ -1,0 +1,70 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>B_BR_Duckbar_frame00052.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/B_BR_Duckbar_frame00052.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>233.3688415446072</xmin>
+        <ymin>127.03374777975132</ymin>
+        <xmax>420</xmax>
+        <ymax>278.79218472468915</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>596.4047936085219</xmin>
+        <ymin>213.1438721136767</ymin>
+        <xmax>626.2316910785619</xmax>
+        <ymax>262.5932504440497</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>512.8894806924101</xmin>
+        <ymin>195.23978685612786</ymin>
+        <xmax>546.9773635153128</xmax>
+        <ymax>226.78507992895203</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>57.81624500665779</xmin>
+        <ymin>208.02841918294848</ymin>
+        <xmax>82.52996005326231</xmax>
+        <ymax>235.3108348134991</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>138.77496671105192</xmin>
+        <ymin>119.36056838365896</ymin>
+        <xmax>165.1930758988016</xmax>
+        <ymax>144.08525754884545</ymax>
+    </bndbox>
+</object>
+</annotation>

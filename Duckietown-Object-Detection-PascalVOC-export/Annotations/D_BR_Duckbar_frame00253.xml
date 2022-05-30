@@ -1,0 +1,48 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>D_BR_Duckbar_frame00253.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/D_BR_Duckbar_frame00253.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>143.88814913448732</xmin>
+        <ymin>194.38721136767316</ymin>
+        <xmax>392.7296937416777</xmax>
+        <ymax>312.04262877442267</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>229.10785619174433</xmin>
+        <ymin>144.08525754884548</ymin>
+        <xmax>308.36218375499334</xmax>
+        <ymax>194.3872113676732</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>523.1158455392809</xmin>
+        <ymin>219.11190053285966</ymin>
+        <xmax>579.3608521970706</xmax>
+        <ymax>281.34991119005326</ymax>
+    </bndbox>
+</object>
+</annotation>

@@ -1,0 +1,70 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>Blue_BR_Duckbar_frame01570.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/Blue_BR_Duckbar_frame01570.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>348.41544607190406</xmin>
+        <ymin>237.86856127886313</ymin>
+        <xmax>472.83621837549924</xmax>
+        <ymax>337.6198934280638</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>293.0226364846871</xmin>
+        <ymin>206.32326820603907</ymin>
+        <xmax>333.92809587217045</xmax>
+        <ymax>252.36234458259324</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>85.08655126498002</xmin>
+        <ymin>219.1119005328596</ymin>
+        <xmax>118.32223701731024</xmax>
+        <ymax>250.65719360568374</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>264.9001331557923</xmin>
+        <ymin>192.68206039076372</ymin>
+        <xmax>288.76165113182424</xmax>
+        <ymax>217.40674955595023</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>565.7256990679093</xmin>
+        <ymin>219.1119005328596</ymin>
+        <xmax>605.7789613848201</xmax>
+        <ymax>253.21492007104789</ymax>
+    </bndbox>
+</object>
+</annotation>

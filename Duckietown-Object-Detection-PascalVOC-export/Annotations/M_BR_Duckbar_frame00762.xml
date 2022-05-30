@@ -1,0 +1,70 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>M_BR_Duckbar_frame00762.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/M_BR_Duckbar_frame00762.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>281.94407456724366</xmin>
+        <ymin>155.16873889875666</ymin>
+        <xmax>372.2769640479361</xmax>
+        <ymax>225.07992895204262</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>213.76830892143806</xmin>
+        <ymin>206.32326820603907</ymin>
+        <xmax>264.9001331557923</xmax>
+        <ymax>267.708703374778</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>165.1930758988016</xmin>
+        <ymin>197.797513321492</ymin>
+        <xmax>205.24633821571237</xmax>
+        <ymax>240.42628774422735</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>516.2982689747004</xmin>
+        <ymin>198.65008880994668</ymin>
+        <xmax>554.647137150466</xmax>
+        <ymax>248.9520426287744</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>9.241011984021304</xmin>
+        <ymin>219.11190053285966</ymin>
+        <xmax>45.03328894806924</xmax>
+        <ymax>249.8046181172291</ymax>
+    </bndbox>
+</object>
+</annotation>

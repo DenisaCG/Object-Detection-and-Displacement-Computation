@@ -1,0 +1,70 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>m_br_zgxbot_00130.jpg</filename>
+    <path>Duckietown-Object-Detection-PascalVOC-export/Annotations/m_br_zgxbot_00130.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>duckiebot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>481.7842876165113</xmin>
+        <ymin>179.89342806394316</ymin>
+        <xmax>640</xmax>
+        <ymax>324.83126110124334</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>445.99201065246336</xmin>
+        <ymin>196.9449378330373</ymin>
+        <xmax>476.6711051930759</xmax>
+        <ymax>241.27886323268206</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>294.30093209054587</xmin>
+        <ymin>189.27175843694494</ymin>
+        <xmax>325.832223701731</xmax>
+        <ymax>225.93250444049733</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>116.19174434087883</xmin>
+        <ymin>204.61811722912964</ymin>
+        <xmax>158.8015978695073</xmax>
+        <ymax>252.3623445825932</ymax>
+    </bndbox>
+</object><object>
+    <name>duckie</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>392.3035952063915</xmin>
+        <ymin>176.48312611012432</ymin>
+        <xmax>417.8695073235686</xmax>
+        <ymax>204.61811722912964</ymax>
+    </bndbox>
+</object>
+</annotation>
